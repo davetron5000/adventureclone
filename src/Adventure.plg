@@ -1,0 +1,166 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Adventure - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP972.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /Zi /Od /I "." /D "_DEBUG" /D LOGGING=1 /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D DIRECTINPUT_VERSION=0x0500 /FR"DebugObjects/" /Fp"DebugObjects/Adventure.pch" /YX /Fo"DebugObjects/" /Fd"DebugObjects/" /FD /GZ /c 
+"D:\davec\Programming\Adventure\source\Wall.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP972.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP973.tmp" with contents
+[
+dsound.lib ddraw.lib dinput.lib dxguid.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /profile /debug /machine:I386 /out:"Debug/Adventure.exe" /libpath:"d:\davec\Programming\GameLib\source\Debug\lib" 
+.\DebugObjects\Bat.obj
+.\DebugObjects\Bmp8BitFileReader.obj
+.\DebugObjects\Bmp8BitFileWriter.obj
+.\DebugObjects\ConnectionTestWorld.obj
+.\DebugObjects\Dragon.obj
+.\DebugObjects\EventDispatcher.obj
+.\DebugObjects\Game.obj
+.\DebugObjects\Game1World.obj
+.\DebugObjects\Game2World.obj
+.\DebugObjects\Game3World.obj
+.\DebugObjects\Game4World.obj
+.\DebugObjects\Game5World.obj
+.\DebugObjects\GameObject.obj
+.\DebugObjects\GameSelectWorld.obj
+.\DebugObjects\Gate.obj
+.\DebugObjects\Holder.obj
+.\DebugObjects\InputManager.obj
+.\DebugObjects\Logger.obj
+.\DebugObjects\Magnet.obj
+.\DebugObjects\ObjectTestWorld.obj
+.\DebugObjects\Player.obj
+.\DebugObjects\Properties.obj
+.\DebugObjects\RandomGenerator.obj
+.\DebugObjects\RectangularImage.obj
+.\DebugObjects\Room.obj
+.\DebugObjects\RoomConnector.obj
+.\DebugObjects\ScreenImage.obj
+.\DebugObjects\ScreenshotManager.obj
+.\DebugObjects\SimpleArray.obj
+.\DebugObjects\SoundManager.obj
+.\DebugObjects\SoundPlayer.obj
+.\DebugObjects\Wall.obj
+.\DebugObjects\WinMain.obj
+.\DebugObjects\World.obj
+.\DebugObjects\Adventure.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP973.tmp"
+<h3>Output Window</h3>
+Compiling...
+Wall.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP975.tmp" with contents
+[
+/nologo /o"Debug/Adventure.bsc" 
+.\DebugObjects\Bat.sbr
+.\DebugObjects\Bmp8BitFileReader.sbr
+.\DebugObjects\Bmp8BitFileWriter.sbr
+.\DebugObjects\ConnectionTestWorld.sbr
+.\DebugObjects\Dragon.sbr
+.\DebugObjects\EventDispatcher.sbr
+.\DebugObjects\Game.sbr
+.\DebugObjects\Game1World.sbr
+.\DebugObjects\Game2World.sbr
+.\DebugObjects\Game3World.sbr
+.\DebugObjects\Game4World.sbr
+.\DebugObjects\Game5World.sbr
+.\DebugObjects\GameObject.sbr
+.\DebugObjects\GameSelectWorld.sbr
+.\DebugObjects\Gate.sbr
+.\DebugObjects\Holder.sbr
+.\DebugObjects\InputManager.sbr
+.\DebugObjects\Logger.sbr
+.\DebugObjects\Magnet.sbr
+.\DebugObjects\ObjectTestWorld.sbr
+.\DebugObjects\Player.sbr
+.\DebugObjects\Properties.sbr
+.\DebugObjects\RandomGenerator.sbr
+.\DebugObjects\RectangularImage.sbr
+.\DebugObjects\Room.sbr
+.\DebugObjects\RoomConnector.sbr
+.\DebugObjects\ScreenImage.sbr
+.\DebugObjects\ScreenshotManager.sbr
+.\DebugObjects\SimpleArray.sbr
+.\DebugObjects\SoundManager.sbr
+.\DebugObjects\SoundPlayer.sbr
+.\DebugObjects\Wall.sbr
+.\DebugObjects\WinMain.sbr
+.\DebugObjects\World.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP975.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP976.bat" with contents
+[
+@echo off
+copy *.bmp Debug
+copy *.wav Debug
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP976.bat"
+
+0.bmp
+1.bmp
+2.bmp
+3.bmp
+4.bmp
+5.bmp
+6.bmp
+7.bmp
+8.bmp
+9.bmp
+armour.bmp
+bat00.bmp
+bat01.bmp
+bg.bmp
+bgdark.bmp
+bridge.bmp
+candle.bmp
+chalice.bmp
+davetron.bmp
+difficult.bmp
+dot.bmp
+dragon-attack.bmp
+dragon-dead.bmp
+dragon-normal.bmp
+easteregg.bmp
+easy.bmp
+extraitems.bmp
+game1select.bmp
+game2select.bmp
+game3select.bmp
+gate00.bmp
+gate01.bmp
+gate02.bmp
+gate03.bmp
+gate04.bmp
+instructions.bmp
+key.bmp
+magnet.bmp
+moreselect.bmp
+screenshot.bmp
+setup.bmp
+sword.bmp
+thanks.bmp
+       43 file(s) copied.
+alldeath.wav
+attack.wav
+death.wav
+drop.wav
+ending.wav
+pickup.wav
+swallow.wav
+        7 file(s) copied.
+
+
+
+<h3>Results</h3>
+Adventure.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
